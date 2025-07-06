@@ -2,4 +2,18 @@
 @import "flowbite/src/themes/default";
 @plugin "flowbite/plugin";
 @source "../../node_modules/flowbite";
+@custom-variant dark (&:where(.dark, .dark *));
 
+@theme {
+    --color-primary: #ec4899;
+    --color-secondary: #fb7185;
+    --color-accent: #db2777;
+    --color-txt: #1e293b;
+    --color-muted: #64748b;
+
+    --color-primarydark: #FDA4AF;
+    --color-secondarydark: #f472b6;
+    --color-accentdark: #fb7185;
+    --color-txtdark: #f4f4f5;
+    --color-muteddark: #a1a1aa;
+}

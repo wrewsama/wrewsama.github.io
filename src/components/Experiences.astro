@@ -3,21 +3,21 @@ import Experience from "../components/Experience.astro"
 ---
 
 <div class="p-8">
-  <h1 class="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white">
+  <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-primary dark:text-primarydark">
     Experiences 
   </h1>
   
   <ol class="relative border-s border-gray-200 dark:border-gray-700">                  
     <Experience 
       role='TODO', 
-      company='TODO', 
+      company={{ name: "TODO", link: "#"}}, 
       start='TODO', 
       end='TODO', 
       points={['TODO', 'TODO']}, 
     />
     <Experience 
       role='TODO', 
-      company='TODO', 
+      company={{ name: "TODO", link: "#"}}, 
       start='TODO', 
       end='TODO', 
       points={['TODO', 'TODO']}, 
