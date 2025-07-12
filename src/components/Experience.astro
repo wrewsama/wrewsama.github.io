@@ -20,12 +20,12 @@ const { role, company, start, end, points } = Astro.props
   <time class="mb-1 text-sm font-normal leading-none text-muted dark:text-muteddark">
     {start} - {end}
   </time>
-  <h3 class="text-xl font-bold text-txt dark:text-txtdark">
+  <h3 class="mb-1 text-xl font-bold text-txt dark:text-txtdark">
     {role} @ <a href={company.link} class="text-accent dark:text-accentdark">{company.name}</span>
   </h3>
     <ul class="list-inside list-disc mb-4 text-sm font-normal text-txt dark:text-txtdark">
     {points.map(point => (
-      <li>
+      <li class="mb-1">
         {point}
       </li>
     ))}

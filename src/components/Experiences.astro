@@ -4,51 +4,68 @@ import Experience from "../components/Experience.astro"
 
 <div class="p-8">
   <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-primary dark:text-primarydark">
-    Experiences 
+    Work Experience 
   </h1>
   
   <ol class="relative border-s border-gray-200 dark:border-gray-700">                  
     <Experience 
-      role='TODO', 
+      role='Software Engineer', 
       company={{ name: "Squarepoint Capital", link: "https://www.squarepoint-capital.com/"}}, 
-      start='TODO', 
-      end='TODO', 
-      points={['TODO', 'TODO']}, 
+      start='May 2025', 
+      end='Present', 
+      points={['Building reliability tooling for Market Data systems']}, 
     />
     <Experience 
-      role='TODO', 
+      role='Backend Engineer Intern', 
       company={{ name: "TikTok", link: "https://www.tiktok.com/about/"}}, 
-      start='TODO', 
-      end='TODO', 
-      points={['TODO', 'TODO']}, 
+      start='Jan 2024', 
+      end='Dec 2024', 
+    points={[
+      'Automated business license moderation processes by integrating third-party APIs, LLMs, and deduplication, reducing human moderation volume by 20%',
+      'Improved scalability of several Go and Python microservices to leverage asynchronous communication using pull-based Message Queues, reducing traffic spike-related failures by 100%',
+      'Constructed an automatic ML training and deployment pipeline with Spark and Python to train a classification model with recent data, improving model accuracy by 20%',
+    ]}, 
     />
     <Experience 
-      role='TODO', 
+      role='Software Engineer Intern', 
       company={{ name: "GovTech", link: "https://www.tech.gov.sg/"}}, 
-      start='TODO', 
-      end='TODO', 
-      points={['TODO', 'TODO']}, 
+      start='May 2023', 
+      end='Dec 2023', 
+      points={[
+        'Engineered features for micro-services for the Citizen Disbursement System using technologies such as AWS, Spring Boot, Apache Kafka, Docker, and Kubernetes, handling government payouts for up to 6 million citizens',
+        'Implemented an audit service from scratch with AWS Lambda, Terraform, Python, and GitLab CI, efficiently extracting millions of data records',
+        'Optimised application performance through code refactoring, reducing memory usage by over 95%',
+      ]}, 
     />
     <Experience 
-      role='TODO', 
+      role='Software Engineer Intern', 
       company={{ name: "Grab", link: "https://www.grab.com/sg/about/"}}, 
-      start='TODO', 
-      end='TODO', 
-      points={['TODO', 'TODO']}, 
+      start='Jan 2023', 
+      end='May 2023', 
+      points={[
+        'Enhanced a self-help Web Portal by developing features utilised by several hundred GrabRentals drivers and staff',
+        'Automated business processes by creating a script to automatically generate invoice statements using MySQL, NodeJS, and AWS S3, saving dozens of man-hours per annum',
+        'Spearheaded communication between various teams including Operations and two Tech teams from Indonesia and Vietnam',
+      ]}, 
     />
     <Experience 
-      role='TODO', 
+      role='Undergraduate Teaching Assistant', 
       company={{ name: "National University of Singapore", link: "https://nus.edu.sg/about"}}, 
-      start='TODO', 
-      end='TODO', 
-      points={['TODO', 'TODO']}, 
+      start='Aug 2022', 
+      end='May 2025', 
+      points={[
+        'Guided undergraduate students in lab and tutorial sessions, covering concepts such as OOP, Operating Systems, and Computer Organisation, achieving a teaching feedback rating of 4.5/5.0',
+      ]}, 
     />
     <Experience 
-      role='TODO', 
+      role='Robotics Software Engineer Intern', 
       company={{ name: "Robotics Innovation Lab, SUTD", link: "https://www.sutd.edu.sg/about/"}}, 
-      start='TODO', 
-      end='TODO', 
-      points={['TODO', 'TODO']}, 
+      start='May 2022', 
+      end='Aug 2022', 
+      points={[
+        'Collaborated with researchers to develop an application to read and publish data from a smart glove to a Robot Operating System network using ROS Noetic, Python, Scikit-Learn, NumPy, and pandas',
+        'Developed scripts to collect data, train models, and recognise different hand gestures using machine learning in Python, eventually achieving a validation accuracy of 99% within 200 epochs',
+      ]}, 
     />
   </ol>
 </div>
