@@ -8,9 +8,7 @@ const { name, desc, link } = Astro.props;
 ---
 
 <div class="flex justify-center items-center flex-col hidden duration-700 ease-in-out" data-carousel-item>
-    <a href="#">
-    <h5 class="mb-2 text-xl font-bold tracking-tight text-accent dark:text-accentdark">{name}</h5>
-    </a>
+  <h5 class="mb-2 text-xl font-bold tracking-tight text-accent dark:text-accentdark">{name}</h5>
   <p class="mb-3 font-normal text-txt dark:text-txtdark">{desc}</p>
   <a href={link} class="border border-accent inline-flex items-center px-3 py-2 text-sm font-medium text-center text-accent rounded-lg hover:text-txtdark hover:bg-accent focus:ring-4 focus:outline-none focus:ring-accent dark:hover:bg-accentdark dark:focus:ring-accentdark dark:hover:text-txt dark:border-accentdark dark:text-accentdark">
         See on GitHub 
