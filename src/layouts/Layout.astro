@@ -13,13 +13,15 @@ import Navbar from "../components/Navbar.astro"
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro Basics</title>
 	</head>
-	<body class="bg-gradient-to-br from-rose-50 to-rose-100 dark:from-zinc-900 dark:to-zinc-800 mb-20 p-4 lg:p-16 shadow-xl shadow-slate-200 dark:shadow-slate-900">
-      <Navbar />
-      <script src="../../node_modules/sakura-js/dist/sakura.min.js" text="text/javascript"></script>
-      <script>
-        const sakura = new Sakura("body")
-      </script>
-      <slot />
+	<body>
+      <div class="bg-gradient-to-br from-rose-50 to-rose-100 dark:from-zinc-900 dark:to-zinc-800 mb-20 p-4 lg:p-16">
+        <Navbar />
+        <slot />
+        <script src="../../node_modules/sakura-js/dist/sakura.min.js" text="text/javascript"></script>
+        <script>
+          const sakura = new Sakura("body")
+        </script>
+      </div>
 	</body>
 </html>
 <script is:inline>
