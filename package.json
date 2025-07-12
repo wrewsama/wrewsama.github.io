@@ -12,7 +12,6 @@
     "@tailwindcss/vite": "^4.1.11",
     "astro": "^5.11.0",
     "flowbite": "^3.1.2",
-    "sakura-js": "^1.1.1",
     "tailwindcss": "^4.1.11"
   }
 }
